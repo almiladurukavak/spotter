@@ -1,0 +1,30 @@
+file,issue,count,action
+train_test.csv,rows,48000,-
+train_test.csv,duplicate load_id,0,none found
+train_test.csv,duplicate rows (ex load_id),0,none found
+train_test.csv,missing weight,300,impute w/ train median per equipment
+train_test.csv,negative weight,292,"abs() - same dist + same rpm as positives, sign glitch"
+train_test.csv,"weight at 47,500 cap",1204,"keep, looks like clipping"
+train_test.csv,missing market_index,374,not used by final model
+train_test.csv,distance at 70 mi floor,48,"keep, consistent per lane"
+train_test.csv,distance > 2x great-circle,22,"keep, all short lanes on the 70 mi floor"
+train_test.csv,lat clipped at 25.5,0,"keep, distance carries the real info"
+train_test.csv,lon clipped at -69.5,2052,"keep, distance carries the real info"
+train_test.csv,pickup == delivery,0,none found
+train_test.csv,cities,64,-
+train_test.csv,non-positive rate,0,none found
+train_test.csv,rate > 1.8x lane median rpm,328,train: keep
+train_test.csv,rate < 1/1.8x lane median rpm,320,train: keep
+validation.csv,rows,12000,-
+validation.csv,duplicate load_id,0,none found
+validation.csv,duplicate rows (ex load_id),0,none found
+validation.csv,missing weight,165,impute w/ train median per equipment
+validation.csv,negative weight,145,"abs() - same dist + same rpm as positives, sign glitch"
+validation.csv,"weight at 47,500 cap",301,"keep, looks like clipping"
+validation.csv,missing market_index,249,not used by final model
+validation.csv,distance at 70 mi floor,21,"keep, consistent per lane"
+validation.csv,distance > 2x great-circle,16,"keep, all short lanes on the 70 mi floor"
+validation.csv,lat clipped at 25.5,195,"keep, distance carries the real info"
+validation.csv,lon clipped at -69.5,479,"keep, distance carries the real info"
+validation.csv,pickup == delivery,0,none found
+validation.csv,cities,72,-

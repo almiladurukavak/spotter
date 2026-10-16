@@ -1,0 +1,7 @@
+rep,hidden,model,n,MAE,RMSE,MAPE,MedAPE
+0,"Salt Lake City, Syracuse, Albany, New York, Bakersfield, Lubbock, Dallas, Chattanooga",lane median rpm x dist,2174,311.24990230753156,791.621422407427,11.799924799926893,8.40371896155385
+0,"Salt Lake City, Syracuse, Albany, New York, Bakersfield, Lubbock, Dallas, Chattanooga",model,2174,97.38759345745126,721.0297858876886,3.543892766157342,0.9704841833391006
+1,"Hartford, Madison, San Francisco, Savannah, New York, St. Louis, Washington, Richmond",lane median rpm x dist,1981,260.75218072053417,560.5090092392029,11.449725387726414,7.592890711279643
+1,"Hartford, Madison, San Francisco, Savannah, New York, St. Louis, Washington, Richmond",model,1981,73.08280337620195,462.54602648047364,3.9418755048679057,0.9394686291867304
+2,"Houston, Richmond, Fort Wayne, Phoenix, Baton Rouge, Corpus Christi, Raleigh, Dayton",lane median rpm x dist,2629,255.62028333784298,637.1318410724692,11.48935414385632,7.623116237264925
+2,"Houston, Richmond, Fort Wayne, Phoenix, Baton Rouge, Corpus Christi, Raleigh, Dayton",model,2629,89.73954610980901,583.9288813770994,4.174296482968748,0.9194458099003164

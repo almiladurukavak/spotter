@@ -1,0 +1,73 @@
+{
+  "validation": {
+    "all": {
+      "cv_MAE": 115.212,
+      "cv_MAPE": 5.335,
+      "ho_MAE": 85.344,
+      "ho_RMSE": 628.558,
+      "ho_MAPE": 3.708
+    },
+    "clean": {
+      "cv_MAE": 64.272,
+      "cv_MAPE": 3.02,
+      "ho_MAE": 32.53,
+      "ho_RMSE": 135.905,
+      "ho_MAPE": 1.325
+    },
+    "seen lane": {
+      "cv_MAE": 115.353,
+      "cv_MAPE": 5.337,
+      "ho_MAE": 85.486,
+      "ho_RMSE": 629.25,
+      "ho_MAPE": 3.714
+    },
+    "unseen lane": {
+      "cv_MAE": 54.141,
+      "cv_MAPE": 3.882,
+      "ho_MAE": 20.707,
+      "ho_RMSE": 28.682,
+      "ho_MAPE": 0.966
+    }
+  },
+  "city_holdout": {
+    "lane median rpm x dist": {
+      "MAE": 275.874,
+      "MAPE": 11.58
+    },
+    "model": {
+      "MAE": 86.737,
+      "MAPE": 3.887
+    }
+  },
+  "trend_mode": "none",
+  "prediction_sources": {
+    "model": 12000
+  },
+  "checks": {
+    "val_rows": 12000,
+    "val_pred_rate": {
+      "count": 12000.0,
+      "mean": 2355.6,
+      "std": 1382.13,
+      "min": 171.95,
+      "25%": 1258.78,
+      "50%": 2019.58,
+      "75%": 3366.64,
+      "max": 6798.01
+    },
+    "train_rate": {
+      "count": 48000.0,
+      "mean": 2373.98,
+      "std": 1486.49,
+      "min": 57.22,
+      "25%": 1251.55,
+      "50%": 2030.76,
+      "75%": 3330.75,
+      "max": 25533.0
+    },
+    "val_pred_rpm_median": 2.141361897535497,
+    "train_rpm_median": 2.1453480823707856,
+    "dec_min": 811.66,
+    "dec_max": 824.54
+  }
+}
